@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-rows: minmax(30px, auto) 90% minmax(30px, auto);
+    margin: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+}
+
+main {
+    /* background-color: rgba(142, 184, 226, 0.363); */
+    padding: 20px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+footer {
+    background-color: aqua;
+}
+
+form {
+    /* background-color: fuchsia; */
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    width: 500px;
+    text-align: center;
+}
+
+button {
+    padding: 7px;
+    margin: 10px;
+}
